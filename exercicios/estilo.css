@@ -1,0 +1,226 @@
+*{
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+header{
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(29, 86, 104);
+}
+
+header ul, #conteudo ul{
+
+    width: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteudo ul{
+
+    width: 350px;
+    margin-bottom: 20px;
+
+}
+
+header ul li, #conteudo ul li{
+
+    border: solid 3px rgb(47, 194, 219);
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 10px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+#conteudo ul li{
+
+    background-color: rgb(29, 86, 104);
+    width: 120px;
+    font-size: 18px;
+    width: 100px;
+    padding: 7px;
+}
+
+header ul li:hover, #conteudo ul li:hover{
+
+    background-color: rgb(47, 194, 219);
+    border: solid 3px rgb(148, 146, 150);
+   
+}
+
+#conteudo{
+
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+iframe{
+    
+    border: none;
+    float: left;
+    margin-left: 20px;
+    width: 650px;
+    height: 355px;
+    overflow: hidden;
+
+}
+
+article h2{
+
+    font-size: 13pt;
+    margin: 0px;
+
+}
+
+.formulario{
+
+    margin-top: 20px;
+    float: left;
+    border-top: solid 2px rgb(29, 86, 104);
+    border-bottom: solid 2px rgb(29, 86, 104);
+    width: 600px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+
+.formulario h2{
+
+    margin-bottom: 10px;
+}
+
+.formulario p{
+
+    padding: 10px;
+
+}
+
+.formulario input[type=submit]{
+
+    background-color: rgb(29, 86, 104);
+    border-radius: 6px;
+    float: right;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px;
+    width: 100px;
+
+}
+
+#dados{
+
+    margin-top: 30px;
+    border: rgba(13, 116, 156, 0.281) solid 7px;
+    padding:1px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+table, tr, td, th{
+
+    border: solid 1px black;
+    padding: 5px;
+
+}
+
+th{
+    background-color: rgba(29, 87, 104, 0.486);
+}
+
+.pr{
+
+    background-color: rgba(71, 71, 71, 0.486);
+}
+
+.ipr{
+
+    background-color: rgba(146, 145, 145, 0.486);
+}
+
+.ipr:hover, .pr:hover{
+
+    background-color: #ffffff;
+
+}
+
+#dados img{
+
+    width: 100%;
+    height: 40px;
+} 
+
+footer{
+
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(29, 86, 104);
+    position: absolute;
+    bottom: 0;
+}
+
+footer p{
+
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#redes{
+
+    margin-top: 5px;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#redes h1{
+
+    margin-left: 20px;
+    color: rgb(47, 194, 219);
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+#redes a i{
+
+    color: #ffffff;
+}
+
+#redes ul{
+    
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+#redes ul li{
+
+    display: block;
+    margin-left: 0px;
+    margin-right: 20px;
+    list-style: none;
+
+}
+
+
+
+
+
+
+
